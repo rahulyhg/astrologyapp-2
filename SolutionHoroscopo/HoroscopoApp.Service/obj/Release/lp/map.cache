@@ -1,0 +1,6 @@
+HoroscopoApp.Models
+HoroscopoApp.Utils
+Newtonsoft.Json
+System.Runtime
+Plugin.Connectivity
+Plugin.Connectivity.Abstractions

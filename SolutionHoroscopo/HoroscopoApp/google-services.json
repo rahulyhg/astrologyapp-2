@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "954045574842",
+    "firebase_url": "https://astrologyapp-1f6dc.firebaseio.com",
+    "project_id": "astrologyapp-1f6dc",
+    "storage_bucket": "astrologyapp-1f6dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954045574842:android:a4b604d548a9e3d5",
+        "android_client_info": {
+          "package_name": "cl.spaceti.horoscopo.Horoscopo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954045574842-q8vqvuuo9rgtcitgb98g932jr3poabp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAytNV-vtm3A3ZT0Jc7Q07_zeFbJjLS-KE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

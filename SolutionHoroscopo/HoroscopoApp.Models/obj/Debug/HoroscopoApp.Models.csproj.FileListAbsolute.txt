@@ -1,0 +1,13 @@
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/bin/Debug/HoroscopoApp.Models.dll
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/bin/Debug/HoroscopoApp.Models.pdb
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/bin/Debug/HoroscopoApp.Models.apk
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/bin/Debug/HoroscopoApp.Models-Signed.apk
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/res.flag
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/HoroscopoApp.Models.csproj.CoreCompileInputs.cache
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/HoroscopoApp.Models.dll
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/HoroscopoApp.Models.pdb
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/android/bin/HoroscopoApp.Models.apk
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/res/values/strings.xml
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/R.cs.flag
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/R.txt
+/Users/pablogarrido/Projects/SolutionHoroscopo/HoroscopoApp.Models/obj/Debug/uploadflags.txt
