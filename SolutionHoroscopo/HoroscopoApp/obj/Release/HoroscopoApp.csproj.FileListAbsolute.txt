@@ -46,6 +46,7 @@
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp/bin/Release/Plugin.Connectivity.Abstractions.xml
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp/bin/Release/Newtonsoft.Json.xml
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp/bin/Release/de/Humanizer.resources.dll
+/Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp/obj/Release/HoroscopoApp.csprojAssemblyReference.cache
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp/obj/Release/XbdMerge/Xamarin.GooglePlayServices.Basement.dll.stamp
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp/obj/Release/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll.stamp
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp/obj/Release/XbdMerge/Xamarin.Firebase.Common.dll.stamp

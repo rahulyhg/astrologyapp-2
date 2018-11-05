@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{F8437381-CDD5-4C1B-99F7-B199DB678132}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HoroscopoApp.Utils/Utils/ValidationUtils.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HoroscopoApp/Actividades/MainActivity.cs">
     <Files>
       <File FileName="HoroscopoApp/Properties/AndroidManifest.xml" Line="21" Column="12" />
-      <File FileName="HoroscopoApp/Actividades/MainActivity.cs" Line="31" Column="49" />
-      <File FileName="HoroscopoApp.Utils/Utils/ValidationUtils.cs" Line="21" Column="2" />
+      <File FileName="HoroscopoApp/Actividades/MainActivity.cs" Line="66" Column="1" />
+      <File FileName="HoroscopoApp.Utils/Utils/ValidationUtils.cs" Line="18" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp.Utils/Utils/ValidationUtils.cs" relfile="HoroscopoApp.Utils/Utils/ValidationUtils.cs" line="15" column="1" />
+      <Breakpoint file="/Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp/Actividades/MainActivity.cs" relfile="HoroscopoApp/Actividades/MainActivity.cs" line="31" column="49" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.01._220Presentacion.HoroscopoApp PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />

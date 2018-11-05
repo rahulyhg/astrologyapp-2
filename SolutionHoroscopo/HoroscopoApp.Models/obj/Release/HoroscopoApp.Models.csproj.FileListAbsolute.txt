@@ -11,3 +11,4 @@
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp.Models/obj/Release/R.cs.flag
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp.Models/obj/Release/R.txt
 /Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp.Models/obj/Release/uploadflags.txt
+/Users/pablogarrido/Desktop/Repositorios/AstrologyApp/SolutionHoroscopo/HoroscopoApp.Models/obj/Release/HoroscopoApp.Models.csprojAssemblyReference.cache

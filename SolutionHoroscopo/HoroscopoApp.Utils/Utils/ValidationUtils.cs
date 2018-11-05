@@ -16,6 +16,5 @@ namespace HoroscopoApp.Utils.Utils
         {
             return CrossConnectivity.Current.IsConnected;
         }
-
     }
 }
