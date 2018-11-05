@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="cl.spaceti.horoscopo.Horoscopo">
-	<uses-sdk android:minSdkVersion="16" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.5" package="cl.spaceti.horoscopo.Horoscopo" android:versionCode="6">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="26" />
 	<application android:icon="@mipmap/ic_logo" android:label="@string/app_name" android:largeHeap="true" android:hardwareAccelerated="true">
+		<meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/ic_push" />
 		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
 		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
 			<intent-filter>

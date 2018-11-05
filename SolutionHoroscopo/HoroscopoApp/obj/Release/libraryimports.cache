@@ -22,6 +22,7 @@
     <ManifestDocument>obj/Release/lp/28/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/29/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/30/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Release/lp/31/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/7/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/8/jl/AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
@@ -48,6 +49,7 @@
     <Jar>obj/Release/lp/28/jl/classes.jar</Jar>
     <Jar>obj/Release/lp/29/jl/classes.jar</Jar>
     <Jar>obj/Release/lp/30/jl/classes.jar</Jar>
+    <Jar>obj/Release/lp/31/jl/classes.jar</Jar>
     <Jar>obj/Release/lp/5/jl/arch-core-common.jar</Jar>
     <Jar>obj/Release/lp/6/jl/arch-lifecycle-common.jar</Jar>
     <Jar>obj/Release/lp/7/jl/bin/classes.jar</Jar>

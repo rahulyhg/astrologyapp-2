@@ -1,8 +1,10 @@
 ﻿using Android.App;
-using Android.Content.Res;
 
 namespace HoroscopoApp.Utils.Utils
 {
+    /// <summary>
+    /// Tools utils android.
+    /// </summary>
     public class ToolsUtilsAndroid
     {
         /// <summary>

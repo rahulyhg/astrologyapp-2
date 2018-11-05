@@ -5,6 +5,7 @@ using System.Text;
 using Android.App;
 using Android.Content;
 using Android.Gms.Ads;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Util;
@@ -339,6 +340,9 @@ namespace HoroscopoApp.Fragments
             else if (tipo == 9)
             {
                 clean();
+                lblFechaDelDia.SetTextColor(lblFechaDelDia.Context.Resources.GetColor(Resource.Color.white));
+                lblFechaSigno.SetTextColor(lblFechaSigno.Context.Resources.GetColor(Resource.Color.white));
+                lblNombreSigno.SetTextColor(lblNombreSigno.Context.Resources.GetColor(Resource.Color.white));
                 imgSigno.SetImageResource(Resource.Drawable.ic_sagitario);
                 cambioColor(Resource.Color.fondo_sagitario);
                 lblNombreSigno.Text = DataManager.Horoscopos.horoscopo.sagitario.nombre;
@@ -353,6 +357,9 @@ namespace HoroscopoApp.Fragments
             else if (tipo == 10)
             {
                 clean();
+                lblFechaDelDia.SetTextColor(lblFechaDelDia.Context.Resources.GetColor(Resource.Color.white));
+                lblFechaSigno.SetTextColor(lblFechaSigno.Context.Resources.GetColor(Resource.Color.white));
+                lblNombreSigno.SetTextColor(lblNombreSigno.Context.Resources.GetColor(Resource.Color.white));
                 imgSigno.SetImageResource(Resource.Drawable.ic_capricornio);
                 cambioColor(Resource.Color.fondo_capricornio);
                 lblNombreSigno.Text = DataManager.Horoscopos.horoscopo.capricornio.nombre;

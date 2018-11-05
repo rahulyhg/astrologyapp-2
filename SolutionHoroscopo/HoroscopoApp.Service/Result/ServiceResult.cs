@@ -1,5 +1,4 @@
-﻿using System;
-namespace HoroscopoApp.Service.Result
+﻿namespace HoroscopoApp.Service.Result
 {
     /// <summary>
     /// Service result.

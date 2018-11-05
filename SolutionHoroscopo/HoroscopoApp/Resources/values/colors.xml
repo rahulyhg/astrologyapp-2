@@ -18,7 +18,7 @@
     <color name="black">#000000</color>
     <color name="plomo_siete">#777777</color>
      <color name="plomo_cuatro">#444444</color>
-    <color name="colorFondo">#F5F5F5</color>
+    <color name="colorFondo">#F1F1F1</color>
     <color name="security_orange">#EC7900</color>
     <color name="security_morado_menu">#6A2E92</color>
     <color name="security_plomo">#26000000</color>
@@ -34,4 +34,7 @@
     <color name="fondo_capricornio">#055479</color>
     <color name="fondo_acuario">#6FC8EE</color>
     <color name="fondo_piscis">#8BCCF0</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#CBCBCB</color>
+    <color name="colorAccent">#788CE2</color>
 </resources>

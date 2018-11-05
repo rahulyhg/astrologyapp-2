@@ -8,14 +8,16 @@
     <OutputType>Library</OutputType>
     <RootNamespace>HoroscopoApp</RootNamespace>
     <AssemblyName>HoroscopoApp</AssemblyName>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <EnableProguard>true</EnableProguard>
+    <AndroidEnableMultiDex>true</AndroidEnableMultiDex>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,6 +38,8 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidSupportedAbis>armeabi-v7a;x86_64;arm64-v8a;x86;armeabi</AndroidSupportedAbis>
+    <EnableProguard>false</EnableProguard>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -150,7 +154,6 @@
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\style.xml" />
     <AndroidResource Include="Resources\values\theme.xml" />
-    <AndroidResource Include="Resources\layout\Home.axml" />
     <AndroidResource Include="Resources\layout\headerdrawerlayout.axml" />
     <AndroidResource Include="Resources\drawable\linea_menu.xml" />
     <AndroidResource Include="Resources\drawable\splash_screen.xml" />
@@ -310,7 +313,6 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\tcb.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\td.png" />
     <AndroidResource Include="Resources\layout\horoscopoFragment.axml" />
-    <AndroidResource Include="Resources\layout\app_bar.axml" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_aquario.jpg" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_aries.jpg" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_cancer.jpg" />
@@ -387,18 +389,25 @@
     <AndroidResource Include="Resources\drawable-xhdpi\ic_horoscopo.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_horoscopo.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_horoscopo.png" />
-    <AndroidResource Include="Resources\mipmap-hdpi\ic_logo_round.png" />
-    <AndroidResource Include="Resources\mipmap-hdpi\ic_logo.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\ic_logo_round.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\ic_logo.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\ic_logo_round.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\ic_logo.png" />
-    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_logo_round.png" />
-    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_logo.png" />
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_logo_round.png" />
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_logo.png" />
     <AndroidResource Include="Resources\drawable\cssModal.xml" />
     <AndroidResource Include="Resources\drawable\ic_compartir.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_push.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_push.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_push.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_push.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_push.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_logo_round.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_logo_round.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_logo_round.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_logo_round.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_logo_round.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_logo.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_logo.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_logo.png" />
+    <AndroidResource Include="Resources\layout\app_bar.axml" />
+    <AndroidResource Include="Resources\layout\Home.axml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_logo.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

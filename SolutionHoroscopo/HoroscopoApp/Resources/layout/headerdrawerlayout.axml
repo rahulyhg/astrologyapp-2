@@ -20,19 +20,17 @@
             android:background="@drawable/backgroundmenu"
             android:minWidth="25px"
             android:minHeight="25px">
-            <RelativeLayout
-                android:gravity="end"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/relativeLayout1">
+            <RelativeLayout                
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:gravity="center"                                               
+                android:id="@+id/rlBotonCerrarMenu">
                 <ImageView
                     android:id="@+id/botonCerrarMenu"
                     android:clickable="true"
-                    android:layout_width="20dp"
-                    android:layout_height="18dp"
+                    android:layout_width="22dp"
+                    android:layout_height="20dp"
                     android:src="@drawable/close_icon"
                     android:tint="@color/white" />
             </RelativeLayout>
@@ -40,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:layout_marginTop="35dp">
+                android:layout_marginTop="6dp">
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
@@ -61,9 +59,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="2dp"
+                            android:layout_marginTop="4dp"
                             android:text="Horoscopo  diario"
                             android:textSize="20dp"
                             android:textStyle="normal"

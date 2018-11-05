@@ -1,6 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Json;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Net;
@@ -8,7 +6,6 @@ using System.Threading.Tasks;
 using HoroscopoApp.Utils.Properties;
 using HoroscopoApp.Utils.Utils;
 using HoroscopoApp.Service.Result;
-using System.Collections.Generic;
 using HoroscopoApp.Models.Models;
 
 namespace HoroscopoApp.Service.Delagate

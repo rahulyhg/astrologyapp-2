@@ -1,6 +1,8 @@
-﻿using System;
-namespace HoroscopoApp.Models.Models
+﻿namespace HoroscopoApp.Models.Models
 {
+    /// <summary>
+    /// Horoscopo.
+    /// </summary>
     public class Horoscopo
     {
         public SignoZodiaco aries { get; set; }

@@ -134,6 +134,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Firebase.Messaging.dll",
 		"Xamarin.GooglePlayServices.Ads.dll",
 		"Xamarin.GooglePlayServices.Ads.Lite.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Gass.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",

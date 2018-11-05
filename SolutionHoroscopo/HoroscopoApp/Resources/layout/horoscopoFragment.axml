@@ -87,22 +87,22 @@
             android:layout_marginRight="20dp"
             android:orientation="horizontal">
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:src="@drawable/ic_dinero_act"           
                 android:id="@+id/btnDinero"
                 android:background="@color/white"/>
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:src="@drawable/ic_amor_des"
                 android:id="@+id/btnAmor"
-                android:layout_marginLeft="85dp"
-                android:layout_marginRight="85dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
                 android:background="@color/white"/>
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:src="@drawable/ic_salud_des"
                 android:id="@+id/btnSalud"
                 android:background="@color/white"/>
@@ -116,11 +116,13 @@
             android:background="#e5e5e5"
             android:layout_gravity="center" />
         <ScrollView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"       
+                    android:layout_marginRight="20dp"
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="wrap_content"
@@ -148,8 +150,7 @@
                     android:layout_marginLeft="20dp"       
                     android:layout_marginRight="20dp"
                     android:gravity="center"
-                    android:orientation="horizontal"       
-                    android:background="@drawable/cssmodal">
+                    android:orientation="horizontal">
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -201,6 +202,10 @@
                     ads:adSize="SMART_BANNER"
                     ads:adUnitId="@string/banner_ad_unit_id">
                 </com.google.android.gms.ads.AdView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="vertical"/>
             </LinearLayout>             
         </ScrollView>           
     </LinearLayout>       

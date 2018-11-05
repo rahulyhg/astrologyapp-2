@@ -5,29 +5,28 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.App;
-using Android.Content;
 using System;
 using Android.Graphics;
 using Android.Support.V4.View;
-using Android.Text;
-using System.Collections.Generic;
 using HoroscopoApp.Fragments;
 using HoroscopoApp.Utils.Properties;
 using HoroscopoApp.Utils.Utils;
+using Android.Gms.Ads;
 
 namespace HoroscopoApp
 {
     /// <summary>
     /// Home activity.
     /// </summary>
-    [Activity(Label = "", Theme = "@style/Theme.AppCompat.Light.NoActionBar", ConfigurationChanges = Android.Content.PM.ConfigChanges.ScreenSize |
+    [Activity(Label = "AstrologyApp", Theme = "@style/ThemeAstrologyApp", ConfigurationChanges = Android.Content.PM.ConfigChanges.ScreenSize |
               Android.Content.PM.ConfigChanges.Orientation,
               ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class HomeActivity : AppCompatActivity
-    {
+    { 
         DrawerLayout drawerLayout;
-        ImageView btnBurger;
         ImageView botonCerrarMenu;
+        LinearLayout llBtnBurger;
+        RelativeLayout rlBotonCerrarMenu;
         TextView lblNombreAppToolbar;
         TextView lblTituloMenu;
         TextView lblSubtituloMenu;
@@ -40,16 +39,20 @@ namespace HoroscopoApp
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Home);
+            var id = "ca-app-pub-5556823688798335~7001844355";
+            Android.Gms.Ads.MobileAds.Initialize(this.ApplicationContext, id);
+            var adView = FindViewById<AdView>(Resource.Id.adViewGoogle);
+            var adRequest = new AdRequest.Builder().Build();
+            adView.LoadAd(adRequest);
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            btnBurger = FindViewById<ImageView>(Resource.Id.btnBurger);
+            llBtnBurger = FindViewById<LinearLayout>(Resource.Id.llBtnBurger);
             lblNombreAppToolbar = FindViewById<TextView>(Resource.Id.lblNombreAppToolbar);
-            btnBurger.Click += BtnBurger_Click;
+            llBtnBurger.Click += LlBtnBurger_Click;
             var navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
             View hView = navigationView.GetHeaderView(0);
             lblTituloMenu = hView.FindViewById<TextView>(Resource.Id.lblTituloMenu);
             lblSubtituloMenu = hView.FindViewById<TextView>(Resource.Id.lblSubtituloMenu);
-
             var fuenteCharmonmanRegular = Typeface.CreateFromAsset(Assets, Constante.FUENTE_CHARMONMAN_REGULAR);
             lblNombreAppToolbar.Typeface = fuenteCharmonmanRegular;
             lblTituloMenu.Typeface = fuenteCharmonmanRegular;
@@ -65,11 +68,15 @@ namespace HoroscopoApp
         /// </summary>
         /// <param name="sender">Sender.</param>
         /// <param name="e">E.</param>
-        private void BtnBurger_Click(object sender, EventArgs e)
+        private void LlBtnBurger_Click(object sender, EventArgs e)
         {
             drawerLayout.OpenDrawer(GravityCompat.End);
-            if (botonCerrarMenu == null)
+            if (rlBotonCerrarMenu == null)
             {
+                using (rlBotonCerrarMenu = FindViewById<RelativeLayout>(Resource.Id.rlBotonCerrarMenu))
+                {
+                    rlBotonCerrarMenu.Click += eventoCerrarMenu;
+                }
                 using (botonCerrarMenu = FindViewById<ImageView>(Resource.Id.botonCerrarMenu))
                 {
                     botonCerrarMenu.Click += eventoCerrarMenu;
